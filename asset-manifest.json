@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Koko-Starters/static/css/main.a506a303.chunk.css",
+    "main.js": "/Koko-Starters/static/js/main.077d7aa3.chunk.js",
+    "main.js.map": "/Koko-Starters/static/js/main.077d7aa3.chunk.js.map",
+    "runtime-main.js": "/Koko-Starters/static/js/runtime-main.a77a87af.js",
+    "runtime-main.js.map": "/Koko-Starters/static/js/runtime-main.a77a87af.js.map",
+    "static/js/2.400d4f73.chunk.js": "/Koko-Starters/static/js/2.400d4f73.chunk.js",
+    "static/js/2.400d4f73.chunk.js.map": "/Koko-Starters/static/js/2.400d4f73.chunk.js.map",
+    "index.html": "/Koko-Starters/index.html",
+    "static/css/main.a506a303.chunk.css.map": "/Koko-Starters/static/css/main.a506a303.chunk.css.map",
+    "static/js/2.400d4f73.chunk.js.LICENSE.txt": "/Koko-Starters/static/js/2.400d4f73.chunk.js.LICENSE.txt",
+    "static/media/one.69371a0f.svg": "/Koko-Starters/static/media/one.69371a0f.svg",
+    "static/media/video.c41dbd34.mov": "/Koko-Starters/static/media/video.c41dbd34.mov"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a77a87af.js",
+    "static/js/2.400d4f73.chunk.js",
+    "static/css/main.a506a303.chunk.css",
+    "static/js/main.077d7aa3.chunk.js"
+  ]
+}
