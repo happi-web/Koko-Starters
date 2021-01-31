@@ -28,7 +28,7 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value = {{color: '#000'}}>
         <Nav scrollNav = {scrollNav}>
             <NavbarContainer>
-                <NavLogo to = "/" onClick = {scrollHome} src = {'logo.png'} alt = 'Koko Partners'/>
+                <NavLogo to = "/" onClick = {scrollHome}>Koko Starters</NavLogo>
                 <MobileIcon onClick = {toggle}>
                     <FaBars/>
                 </MobileIcon>
@@ -49,26 +49,19 @@ const Navbar = ({toggle}) => {
                         Our Services</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to= "/contact"
-                        smooth = {true} exact = "true" offset = {-80} duration = {500} spy = {true} >
-                        Contact Us</NavLinks>
-                    </NavItem>
-                    <NavItem>
                         <NavLinks to= "/signup"
                         smooth = {true} exact = "true" offset = {-80} duration = {500} spy = {true} >
                         Sign Up</NavLinks>
                     </NavItem>
-
+                </NavMenu>
                     <NavBtn>
                         <NavBtnLink to = "/signin">Sign In</NavBtnLink>
                     </NavBtn>
-                </NavMenu>
-
             </NavbarContainer>
         </Nav>
         </IconContext.Provider>
         </>
-    )
-}
+    );
+};
 
 export default Navbar;
